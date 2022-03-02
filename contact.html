@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title> 
+    <!-- bootstrap --> 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!-- font awesome --> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<!-- css --> 
+<link rel="stylesheet" href="style.css"> 
+
+    <script>
+        // Script to open and close sidebar
+        function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        }
+        
+        function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        }
+    </script>
+</head>
+<body>    
+    <!-- Sidebar (hidden by default) -->
+    <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+        <a href="javascript:void(0)" onclick="w3_close()"
+        class="w3-bar-item w3-button">X Close</a> 
+        <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">Home</a> 
+        <a href="gallery.html" onclick="w3_close()" class="w3-bar-item w3-button">Gallery</a>
+        <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a> 
+        <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+        <h1 class="w3-padding w3-black w3-opacity-min">
+            <a href="https://www.facebook.com/wayan.bharata" class="fa fa-facebook-official w3-hover-opacity"></a>  
+            <a href="https://www.instagram.com/bharatayasa/"><i class="fa fa-instagram w3-hover-opacity"></i></a> 
+            <a href="https://twitter.com/WayanBharata"><i class="fa fa-twitter w3-hover-opacity"></i></a> 
+            <a href="https://api.whatsapp.com/send?phone=6281999934616"><i class="fa fa-whatsapp w3-hover-opacity"></i></a> 
+        </h1>
+    </nav>
+    <!-- Top menu -->
+    <div class="w3-top">
+        <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+          <h1>
+            <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+        </h1>
+        <div class="w3-center w3-padding-16">Contact</div>
+        </div>
+    </div>  
+  <br><br><br>
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <p class="w3-center"><em>if you want me to take your picture, please contact me bellow</em></p> 
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <img src="img /myself/myselfkopi.JPG" class="w3-image w3-round" style="width:100%">  
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Kintamani, Bali Indonesia<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +6281 999 934 616<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: bharatayasa40@gmail.com<br>
+        <br><br>
+        <a href="https://api.whatsapp.com/send?phone=6281999934616">
+          <button class="w3-button w3-black">Tap to watsapp</button>  
+          <i></i></a> 
+
+          <br><br>
+
+      </div>
+      <form action="/action_page.php" target="_blank">
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+          </div>
+        </div>
+        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+        <button class="w3-button w3-black w3-center w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer id="footer" class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
+        <span>
+            <h3 class="w3-padding w3-black w3-opacity-min" >
+                <a href="https://www.facebook.com/wayan.bharata" class="fa fa-facebook-official w3-hover-opacity"></a>  
+                <a href="https://www.instagram.com/bharatayasa/"><i class="fa fa-instagram w3-hover-opacity"></i></a> 
+                <a href="https://twitter.com/WayanBharata"><i class="fa fa-twitter w3-hover-opacity"></i></a> 
+                <a href="https://api.whatsapp.com/send?phone=6281999934616"><i class="fa fa-whatsapp w3-hover-opacity"></i></a> 
+            </h3> 
+            <p class="w3-medium we">by : Bharatayasa</p> 
+        </span>
+    </footer> 
+
+</body>
+</html>

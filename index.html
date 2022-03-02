@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title> 
+    <!-- bootstrap --> 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<!-- css --> 
+<link rel="stylesheet" href="style.css"> 
+    <script>
+        // Script to open and close sidebar
+        function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        }
+        
+        function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        }
+    </script>
+</head>
+<body>
+    <!-- Sidebar (hidden by default) -->
+    <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+        <a href="javascript:void(0)" onclick="w3_close()"
+        class="w3-bar-item w3-button">X Close</a> 
+        <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">Home</a> 
+        <a href="gallery.html" onclick="w3_close()" class="w3-bar-item w3-button">Gallery</a>
+        <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button">Contact</a> 
+        <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+        <h1 class="w3-padding w3-black w3-opacity-min">
+            <a href="https://www.facebook.com/wayan.bharata" class="fa fa-facebook-official w3-hover-opacity"></a>  
+            <a href="https://www.instagram.com/bharatayasa/"><i class="fa fa-instagram w3-hover-opacity"></i></a> 
+            <a href="https://twitter.com/WayanBharata"><i class="fa fa-twitter w3-hover-opacity"></i></a> 
+            <a href="https://api.whatsapp.com/send?phone=6281999934616"><i class="fa fa-whatsapp w3-hover-opacity"></i></a> 
+        </h1>
+    </nav>
+    <!-- Top menu -->
+    <div class="w3-top">
+        <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+        <h1>
+            <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+        </h1>
+        <b>
+            <div class="w3-center w3-padding-16">Home</div>
+        </b>
+        
+        </div>
+    </div>
+    <br>
+            <!-- Header -->
+        <header class="w3-container w3-center w3-padding-48 w3-white">
+                <h1 class="w3-xxxlarge"><b>Bharata's Portofolio</b></h1>
+                <h6>Welcome to my personal blog of <span class="w3-tag">Fotograph & video</span></h6> 
+        </header>
+        
+            <!-- Image header -->
+            <header class="w3-display-container w3-wide"> 
+                <img class="w3-image" src="img /ngersigana/rejang.JPG" width="100%">
+                <div class="w3-display-bottommiddle w3-padding-small">
+                <h2 class="w3-text-white">welcome to</h2>  
+                <h1 class="w3-text-white w3-small"><b>Fotos & Videos portofolio</b></h1>  
+                </div>
+        </header> 
+        <!-- content --> 
+    <div class="w3-container w3-light-grey" style="padding:128px 16px">
+        <div class="w3-row-padding">
+        <div class="w3-col m6">
+            <h3>who i am</h3>
+            <p>
+            im just an ordinary that learn about make foto and video from the internet.<br>
+            i know my work is not perfect, but i'm still do it. <br>
+            let't tap the button bellow to see all of my works....
+            </p>
+            <p><a href="gallery.html" class="w3-button w3-black"><i class="fa fa-th"> </i> View Bharata's work</a></p>
+        </div>
+        <div class="w3-col m6">
+            <img class="w3-image w3-round-large" src="img /myself/me pinggan .JPG" width="100%"> 
+        </div>
+        </div>
+    </div>
+
+        <!-- contact -->
+        <div class="w3-row-padding"> 
+            <div class="w3-center w3-padding-64">
+            <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16"></span>  
+            </div>
+            <div class="w3-third w3-margin-bottom">
+            <div class="w3-card-4">
+                <img src="img /myself/myself drone.JPG" alt="John" style="width:100%">
+                <div class="w3-container">
+                <h3>contact me</h3> 
+                <p class="w3-opacity">want me to take your picture...?</p>
+                <p>you can contact me on my watsapp, just click watsapp icon at footer</p> 
+                    <a href="contact.html">
+                    <button class="w3-button w3-black w3-center">or tap here</button>
+                    </a>
+                    
+                </div>
+            </div>
+            </div>
+
+<!-- footage -->
+    <div class="w3-content w3-container w3-padding-64" id="contact">
+        <p class="w3-center"><em>it's just me my self and i, solo ride and until i die.</em></p> 
+    </div>
+
+    <h1 align="center">free drone footages</h1>  
+    <div class="w3-container" align="center"> 
+        <p>
+            you can download my free drone footages, you can use it for whatever do you want. <br>
+            yeah i know my footages is not perfect, but what wrong if you gonna try it. <br> 
+            lets click the button bellow. 
+        </p>
+        
+        <h2>footages 1</h2> 
+        <p>
+            <a href="https://drive.google.com/drive/folders/1-CQsPAytz2ZvdF4PLR-fNR9FEgSn44b3?usp=sharing"> 
+                <button class="w3-button w3-black w3-round-small">Download</button>
+            </a>
+        </p>
+        <h2>footages 2</h2>  
+        <a href="https://drive.google.com/drive/folders/1-JbdZDSaFesebE8xppqubQ-25UFo7S6B?usp=sharing">
+            <p><button class="w3-button w3-black w3-round-small">Download</button></p> 
+        </a>
+        <h2>footages 3</h2>
+        <a href="https://drive.google.com/drive/folders/1-F6fKQjHLeBuQI1LdNUArrL_yMmvOMnz?usp=sharing"> 
+            <p><button class="w3-button w3-black w3-round-small">Download</button></p> 
+        </a>
+    </div>
+    
+
+
+
+    <!-- Footer -->
+    <footer id="footer" class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
+        <span>
+            <h3 class="w3-padding w3-black w3-opacity-min" >
+                <a href="https://www.facebook.com/wayan.bharata" class="fa fa-facebook-official w3-hover-opacity"></a>  
+                <a href="https://www.instagram.com/bharatayasa/"><i class="fa fa-instagram w3-hover-opacity"></i></a> 
+                <a href="https://twitter.com/WayanBharata"><i class="fa fa-twitter w3-hover-opacity"></i></a> 
+                <a href="https://api.whatsapp.com/send?phone=6281999934616"><i class="fa fa-whatsapp w3-hover-opacity"></i></a> 
+            </h3> 
+            <p class="w3-medium we">by : Bharatayasa</p>
+        </span>
+    </footer> 
+</body>
+</html>
