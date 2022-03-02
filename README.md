@@ -1,3 +1,3 @@
 # bharataporto.github.io
 my website 
-this tis my personal portofolio website 
+this my personal website about my freelancer foto and video 
